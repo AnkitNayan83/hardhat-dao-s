@@ -36,6 +36,7 @@ module.exports = {
       forking: {
         url: MAINNET_RPC_URL,
       },
+      allowUnlimitedContractSize: true,
       blockConfirmations: 1,
     },
     localhost: {
