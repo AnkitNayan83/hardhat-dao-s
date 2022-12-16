@@ -33,14 +33,12 @@ module.exports = {
     },
     hardhat: {
       chainId: 31337,
-      forking: {
-        url: MAINNET_RPC_URL,
-      },
       allowUnlimitedContractSize: true,
       blockConfirmations: 1,
     },
     localhost: {
       chainId: 31337,
+      allowUnlimitedContractSize: true,
     },
   },
   namedAccounts: {
